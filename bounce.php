@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 //BSD License -- USE AT YOUR OWN RISK. WILL DEFINITELY CAUSE DATA LOSS
-
+// Amazon SES bounce process for CiviCRM using IMAP. Redirect your bounce messages to an e-mail address and then use this to process that.
 /***
 Copyright (c) 2014, Sami Khan
 All rights reserved.
