@@ -18,7 +18,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 ***/
 //cat bounce.txt | grep emailAddress | cut -f2 -d '>' | sort | uniq > output.txt
 /* connect to imap */
-$drupal_path = '';
+DEFINE('DRUPAL_PATH', '/path/to/drupal')
 //imapinfo
 $hostname = '{hostXXX.hostmonster.com:993/imap/ssl}INBOX';
 $username = '';
